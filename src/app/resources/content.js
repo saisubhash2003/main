@@ -76,7 +76,7 @@ const about = {
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
+                company: 'ResilientShieldCyberSolutions',
                 timeframe: '2024 - 2025',
                 role: 'CyberSecurity Engineer',
                 achievements: [
