@@ -1,6 +1,6 @@
 {
     "person": {
-        "role": "Design Engineer"
+        "role": "Bussiness Enthusiaist & Cyber Analyst "
     },
     "newsletter": {
         "title": "Subscribe to {firstName}'s Newsletter",
@@ -11,8 +11,8 @@
         "label": "Home",
         "title": "{name}'s Portfolio",
         "description": "Portfolio website showcasing my work as a {role}",
-        "headline": "Design engineer and builder",
-        "subline": "I'm Selene, a design engineer at FLY, where I craft intuitive user experiences. After hours, I build my own projects."
+        "headline": "Bussiness Enthusiaist & Cyber Analyst",
+        "subline": "I'm Kunal Kundanam, I'm a Bussiness Enthusiaist and have a good Experience in CyberSecurity where i've work on various network related projects and i've Developed a Firewall, I build my own projects."
     },
     "about": {
         "label": "About",
@@ -20,42 +20,42 @@
         "description": "Meet {name}, {role} from {location}",
         "intro": {
             "title": "Introduction",
-            "description": "Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology."
+            "description": "I'm Kunal Kundanam, I'm a Bussiness Enthusiaist and have a good Experience in CyberSecurity where i've work on various network related projects and i've Developed a Firewall, I build my own projects."
         },
         "work": {
             "title": "Work Experience",
             "experiences": {
                 "FLY": {
-                    "timeframe": "2022 - Present",
-                    "role": "Senior Design Engineer",
-                    "achievements": "Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.;Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster."
+                    "timeframe": "2024 - 2025",
+                    "role": "Cybersecurity Network Engineer",
+                    "achievements": "I've Designed and Devoloped a network vulnerability tool which scans the whole networks and detect network Vulnerabilities and I've designed very own firewall which can be implemented on any devices ."
                 },
                 "Creativ3": {
-                    "timeframe": "2018 - 2022",
-                    "role": "Lead Designer",
-                    "achievements": "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.;Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue."
+                    "timeframe": "2021 - 2023",
+                    "role": "Game Designer",
+                    "achievements": "Developed a design for an open world 3rd person Game where i've designed maps of the game."
                 }
             }
         },
         "studies": {
             "title": "Studies",
             "institutions": {
-                "University of Jakarta": {
+                "Sri Venkateshwara College of Engineering ": {
                     "description": "Studied software engineering."
                 },
                 "Build the Future": {
-                    "description": "Studied online marketing and personal branding."
+                    "description": "Studied 3d Game Devolopment."
                 }
             }
         },
         "technical": {
             "title": "Technical skills",
             "skills": {
-                "Figma": {
-                    "description": "Able to prototype in Figma with Once UI with unnatural speed."
+                "Coding": {
+                    "description": "Ive a good knowledge in Python,Java,Full stack Devolopment and AI."
                 },
-                "Nextjs": {
-                    "description": "Building next gen apps with Next.js + Once UI + Supabase."
+                "Android Studio": {
+                    "description": "Building next gen apps Java + Once UI + Supabase."
                 }
             }
         }
@@ -67,8 +67,8 @@
     },
     "work": {
         "label": "Work",
-        "title": "My projects",
-        "description": "Design and dev projects by {name}"
+        "title": "Network Vulnerability Testing Tool",
+        "description": "Designed a network Pen Testing Tool "
     },
     "gallery": {
         "label": "Gallery",
