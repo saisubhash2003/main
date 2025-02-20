@@ -29,7 +29,7 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/kunalkundanam',
+        link: 'https://www.linkedin.com/in/kunal-k-43aa05264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
     {
         name: 'X',
