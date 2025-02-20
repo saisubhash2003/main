@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Bussiness Enthusiaist and Cyber Analyst</>,
-    subline: <>I'm Kunal, a Bussiness Enthusiaist and CyberSecurity engineer, I'm a Bussiness Enthusiaist<br/>  have a good Experience in CyberSecurity where i've work on various network related projects and i've Developed a Firewall <br/> user experiences. I build my own projects.</>
+    subline: <>I'm Kunal, a Bussiness Enthusiaist and CyberSecurity engineer,<br/> I have a good Experience in CyberSecurity where i've work on various network related projects and i've Developed a Firewall <br/> for a networking server. and I build my own projects.</>
 }
 
 const about = {
@@ -69,7 +69,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Kunal is a India-based CyberSecurity engineer with a passion for transforming complex challenges into simple, elegant solutions. His work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
     },
     work: {
         display: true, // set to false to hide this section
@@ -77,28 +77,28 @@ const about = {
         experiences: [
             {
                 company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                timeframe: '2024 - 2025',
+                role: 'CyberSecurity Engineer',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>I've Designed and Devoloped a network vulnerability tool which scans the whole networks and detect network Vulnerabilities.</>,
+                    <>I've designed very own firewall which can be implemented on any devices.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
                         src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
+                        alt: 'Network Testing Tool',
                         width: 16,
                         height: 9
                     }
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
+                company: 'Kraken Games',
+                timeframe: '2021 - 2023',
                 role: 'Lead Designer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Developed a design for an open world 3rd person Game where i've designed maps of the game.</>,
+                    <>Designed normal PLatformer Games.</>
                 ],
                 images: [ ]
             }
@@ -109,12 +109,12 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Sri Venkateshwara College Of Engineering',
+                description: <>Studied Computer Science engineering in CyberSecurity.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Ethical Hacking',
+                description: <>Studied online Ethical Hacking Program.</>,
             }
         ]
     },
@@ -123,8 +123,8 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'Coding',
+                description: <>Ive a good knowledge in Python,Java,Full stack Devolopment and AI.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-02.jpg',
