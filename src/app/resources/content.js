@@ -24,7 +24,7 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/kunalkundanam007',
+        link: 'https://github.com/once-ui-system/nextjs-starter',
     },
     {
         name: 'LinkedIn',
