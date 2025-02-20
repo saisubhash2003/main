@@ -151,7 +151,7 @@ const about = {
                         height: 9
                     },
                     {
-                        src: '/images/projects/project-01/WhatsApp_Image_2025-02-20_at_18.48.22__1_.jpeg ',
+                        src: '/images/projects/project-01/cover-02.jpg ',
                         alt: 'Project image',
                         width: 16,
                         height: 9
