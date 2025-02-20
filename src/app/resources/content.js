@@ -127,7 +127,7 @@ const about = {
                 description: <>Ive a good knowledge in Python,Java,Full stack Devolopment and AI.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-02.jpg',
+                        src: '/images/projects/project-01/cover-01.jpg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
