@@ -123,8 +123,44 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Coding',
-                description: <>Ive a good knowledge in Python,Java,Full stack Devolopment and AI.</>,
+                title: 'Python',
+                description: <>Ive a good knowledge in Python.</>,
+                images: [
+                    {
+                        src: '/images/projects/project-01/cover-01.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-01/cover-03.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'Ethical Hacking',
+                description: <>I have completed my Internship Program in CyberSecurity and EthicalHacking in ResilientShieldCyberSolutions.</>,
+                images: [
+                    {
+                        src: '/images/projects/project-01/WhatsApp_Image_2025-02-20_at_18.48.22__1_.jpeg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-01/WhatsApp_Image_2025-02-20_at_18.48.22__1_.jpeg ',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'Full Stack Devolopment',
+                description: <>Ive a good knowledge in HTML,CSS,PHP.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-01.jpg',
