@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Kunal',
+    lastName:  'Kunadanam',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Bussiness Enthusiaist and Cyber Analyst',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Asia/India',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Hindi', 'Telugu', 'Marathi']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -29,7 +29,7 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/kunalkundanam',
     },
     {
         name: 'X',
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>DBussiness Enthusiaist and Cyber Analystr</>,
+    subline: <>I'm Kunal Kundanam <InlineCode>FLY</InlineCode>, I'm a Bussiness Enthusiaist<br/>  have a good Experience in CyberSecurity where i've work on various network related projects and i've Developed a Firewall, I build my own projects.</>
 }
 
 const about = {
@@ -69,24 +69,24 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Kunal is a India-based Bussiness Enthusiaist and a CyberSecurity engineer with a passion for transforming complex challenges into simple. His work spans digital interfaces, interactive CyberSecurity Tools.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'RSCS',
+                timeframe: '2024 - 2025',
+                role: 'CyberSecurity Engineer',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>I've Designed and Devoloped a network vulnerability tool which scans the whole networks and detect network Vulnerabilities.</>,
+                    <>I've designed very own firewall which can be implemented on any devices ..</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
                         src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
+                        alt: 'Network Vulnerbality Tester',
                         width: 16,
                         height: 9
                     }
@@ -94,11 +94,11 @@ const about = {
             },
             {
                 company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                timeframe: '2021 - 2023',
+                role: 'Lead Game Designer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Developed a design for an open world 3rd person Game where i've designed maps of the game.</>,
+                    <>Designed normal PLatformer Games.</>
                 ],
                 images: [ ]
             }
@@ -109,12 +109,12 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Sri Venkateshwara College of Engineering',
+                description: <>Computer Sceience engineering in CyberSecurity.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Ethical Hacking',
+                description: <>Studied EthicalHacking Online.</>,
             }
         ]
     },
@@ -123,8 +123,8 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'Coding',
+                description: <>Ive a good knowledge in Python,Java,Full stack Devolopment and AI.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-02.jpg',
