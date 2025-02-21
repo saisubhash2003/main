@@ -1,0 +1,54 @@
+---
+title: "Building an Network Testing Tool"
+publishedAt: "2025/02/20"
+summary: "In this project, I developed a Network Testing Tool in a Graphical User Interface ."
+images:
+  - "/images/projects/project-01/cover-01.jpg"
+  - "/images/projects/project-01/cover-02.jpg"
+  - "/images/projects/project-01/cover-03.jpg"
+  - "/images/projects/project-01/cover-04.jpg"
+team:
+  - name: "Kunal Kundanam"
+    role: "CyberSecurity Engineer and Networking Lead"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/kunal-k-43aa05264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/"
+  - name: "Sai Subash"
+    role: "CyberSecurity Engineer and Android Devloper Lead"
+    avatar: "/images/projects/project-01/avatar-01.png"
+    linkedIn: "https://www.linkedin.com/in/sai-subhash-vasamsetti-83ab3b264/"
+  - name: "Vishnu Vardhan"
+    role: "CyberSecurity Engineer and UI and UX Designer"
+    avatar: "/images/projects/project-01/avatar-02.png"
+    linkedIn: "https://www.linkedin.com/in/vishnu-vardhan-268066265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  - name: "S.AtifRehan"
+    role: "CyberSecurity Engineer and Networking"
+    avatar: "/images/projects/project-01/avatar-03.png"
+    linkedIn: "https://www.linkedin.com/in/atif-rehan-shaik-b1851026a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  
+  
+---
+
+## Overview
+
+This project is a Network Testing Tool designed to provide a user-friendly interface for running various network security and analysis tools.
+The tool integrates multiple security tools, such as Nmap, Wireshark (tshark), BetterCap, ARP Spoofing, and more, into a single graphical user interface (GUI).
+It allows users to select and run specific tools, view real-time output, and detect potential threats in the network. 
+## Key Features
+
+- **User-Friendly GUI**: Built using Tkinter, the GUI provides an intuitive interface for users to interact with the tool.Users can input the target IP or domain, select tools, and start/stop scans or attacks.
+- **Automatic Gateway IP Detection**: The tool automatically detects the default gateway IP address from the system, eliminating the need for manual input.
+- **Tool Integration**: The tool integrates multiple network security tools like , Nmap,Burpsuite,Wireshark,BetterCap and more.
+- **Threat Detection**: The tool dynamically updates the GUI to reflect the threat status (e.g., changes the background color to red if a threat is detected).
+
+## Technologies Used
+
+- **Python**: For a Module Called "Scapy".Its an Network Manupalation Tool in Python.
+- **Python-tk**: For creating GUI and managing design assets and prototypes.
+- **Subprocess**: For running command-line tools (e.g., nmap, tshark, bettercap).
+- **Threading**:  For running tools concurrently in separate threads.
+
+## Challenges and Learnings
+
+One key challenge was balancing the Automatic Gateway address Gathering. The solution involved using python tool called Netifaces.
+## Outcome
+
+It has been a good experience in devoloping this project and looking forward on exploring the future networking networks.
