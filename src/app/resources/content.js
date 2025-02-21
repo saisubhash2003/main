@@ -7,7 +7,7 @@ const person = {
         return `${this.firstName} ${this.lastName}`;
     },
     role:      'Bussiness Enthusiast and CyberSecurity engineer/Analyst',
-    avatar:    '/images/avatar.jpg',
+    avatar:    '/images/avatar-01.jpg',
     location:  'Asia/India',        // Expecting the IST time zone identifier, e.g., 'Asia/India'
     languages: ['English', 'Hindi', 'Telugu']  // optional: Leave the array empty if you don't want to display languages
 }
