@@ -8,7 +8,7 @@ const person = {
     },
     role:      'Bussiness Enthusiast and CyberSecurity engineer/Analyst',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IST time zone identifier, e.g., 'Asia/India'
+    location:  'Asia/India',        // Expecting the IST time zone identifier, e.g., 'Asia/India'
     languages: ['English', 'Hindi', 'Telugu']  // optional: Leave the array empty if you don't want to display languages
 }
 
