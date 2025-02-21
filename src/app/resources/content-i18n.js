@@ -9,7 +9,7 @@ const createI18nContent = (t) => {
         },
         role:      t("person.role"),
         avatar:    '/images/avatar.jpg',
-        location:  'Asia/India',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+        location:  'Asia/India',        // Expecting the IST time zone identifier, e.g., 'India'
         languages: ['English', 'Hindi', 'Telugu']  // optional: Leave the array empty if you don't want to display languages
     }
 
